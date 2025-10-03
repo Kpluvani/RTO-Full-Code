@@ -1,0 +1,59 @@
+.documents-validity .ant-card {
+    margin-bottom: 1rem;
+    border: 2px solid rgba(184, 183, 183, 0.386);
+}
+
+.documents-validity .ant-form-item-margin-offset {
+    margin-bottom: 0 !important;
+    padding-bottom: 0.5rem !important;
+}
+
+.documents-validity .ant-card-body {
+    padding: 0 1rem!important;
+}
+
+.documents-validity .ant-card-head {
+    border-bottom: none !important;
+}
+
+.documents-validity .ant-card-head-title {
+    color: var(--primary-color);
+    font-size: 1.2rem;
+}
+
+.documents-validity .ant-card-head {
+    padding:0 1rem !important;
+    height: 3rem;
+}
+
+.documents-validity .hypotheticate {
+    margin: 16px 16px 0px 16px !important;
+    justify-content: start;
+}
+
+.documents-validity .hypotheticate-box {
+    margin: 16px 16px 0px 16px !important;
+}
+
+.documents-validity .followup-all {
+    margin: 10px 0px !important;
+    justify-content: end;
+}
+.documents-validity .followup-all .ant-checkbox-label {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.official-service-card {
+    max-width: 700px;
+    margin: auto;
+}
+.official-service-card .ant-card-body {
+    margin-top: 10px;
+}
+.official-service-card .ant-form-item {
+    margin-bottom: 10px !important;
+}
+.official-service-card .ant-form-item input {
+    max-width: 250px !important;
+}

@@ -1,0 +1,10 @@
+.vehical-class-title {
+    color: var(--primary-color);
+    font-weight: 600;
+}
+
+.add-vehical-class {
+    display: flex;
+    justify-content: end;
+    margin-bottom: 15px;
+}

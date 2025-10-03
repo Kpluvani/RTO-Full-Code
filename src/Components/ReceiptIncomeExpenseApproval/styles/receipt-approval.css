@@ -1,0 +1,98 @@
+.receipt-approval .sr-no-cell {
+    padding: 5px 6px;
+}
+.receipt-approval .ant-table-container table>thead>tr:first-child >*:first-child {
+    border-left: 0;
+}
+.receipt-approval .ant-table-container table>tbody>tr:last-child >td {
+    border-bottom: 0 !important;
+}
+.receipt-approval .ant-table-wrapper .ant-table.ant-table-bordered >.ant-table-container >.ant-table-content >table >thead>tr>th {
+    border-top: 0px;
+}
+.receipt-approval .ant-table-wrapper .ant-table-tbody >tr >td {
+    border-bottom: 1px solid #d5d5d5 !important;
+    border-inline-end: 1px solid #d5d5d5 !important;
+}
+.receipt-approval .ant-table-container table>tbody>tr >*:last-child {
+    border-inline-end: 0px !important;
+}
+
+.receipt-approval .ant-card {
+    margin-bottom: 1rem;
+}
+
+.receipt-approval .ant-form-item-margin-offset {
+    margin-bottom: 0 !important;
+    padding-bottom: 0.5rem !important;
+}
+
+.receipt-approval .ant-card-body {
+    padding: 0px 15px 15px 15px !important;
+}
+
+.receipt-approval .ant-card-head {
+    border-bottom: none !important;
+}
+
+.receipt-approval .ant-card-head-title {
+    color: var(--primary-color);
+    font-size: 1.2rem;
+}
+
+.receipt-approval .ant-card-head {
+    padding: 0 1rem !important;
+}
+
+.receipt-approval .amount-tbl .ant-table-tbody .ant-table-cell {
+    padding: 5px !important;
+}
+.receipt-approval .footer-wrapper {
+    width: 100%;
+    display: flex;
+}
+.receipt-approval .footer-label {
+    margin-left: 15px;
+    width: 76%;
+    text-align: end;
+    font-size: 1rem;
+    font-weight: 600;
+}
+.receipt-approval .footer-value {
+    margin-left: 15px;
+    text-align: start;
+    font-size: 1rem;
+    font-weight: 600;
+}
+.receipt-approval .ant-table-footer {
+    border: 1px solid #9DCBED !important;
+    border-top: 0px !important;
+    padding: 8px !important;
+}
+.receipt-approval .ant-table-container {
+    border-radius: 8px 8px 0 0 !important;
+}
+.receipt-approval .payment.ant-select-outlined.ant-select-disabled:not(.ant-select-customize-input) .ant-select-selector {
+    background-color: transparent !important;
+    color: inherit !important;
+}
+.receipt-approval .ant-table-container {
+    border-radius: 8px !important;
+}
+.receipt-approval .ant-table-wrapper .ant-table-tbody >*:nth-last-child(2) >td {
+    border-bottom: 1px solid #9DCBED !important;
+}
+.receipt-approval .ant-table-wrapper .ant-table-tbody >*:nth-last-child(1) >td {
+    background-color: #f7f7f7 !important;
+}
+.receipt-approval .ant-table-wrapper .ant-table-tbody >*:nth-last-child(1) >td:first-child {
+    border-bottom-left-radius: 8px !important;
+}
+.receipt-approval .ant-table-wrapper .ant-table-tbody >*:nth-last-child(1) >td:last-child {
+    border-bottom-right-radius: 8px !important;
+}
+.receipt-approval .total-row {
+    font-weight: 500;
+    font-size: 15px;
+    padding: 1px 5px
+}

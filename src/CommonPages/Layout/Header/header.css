@@ -1,0 +1,97 @@
+.header-block {
+    background: #1890ff;
+    padding: 0 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.header-logo {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 40px;
+}
+
+.header-button {
+    color: white !important;
+    border: none !important;
+    background: #0091f9 !important;
+}
+
+.header-msg {
+    color: #FFFFFF;
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.header-right-button {
+    color: white !important;
+    border: none !important;
+}
+
+/* Responsive styles */
+.hamburger-btn {
+  display: none;
+  color: white !important;
+  background: transparent !important;
+  border: none !important;
+  margin-left: 8px;
+  height: auto !important;
+  margin-top:   10px;
+}
+
+.logout-btn-css {
+   /* display: block; */
+}
+.header-menu {
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+
+/* .masterMenuItems{
+  height: 400px;
+} */
+
+.ant-dropdown-menu {
+  max-height: 450px;
+}
+@media (max-width: 768px) {
+  .header-flex {
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .header-menu {
+    display: none;
+    position: absolute;
+    top: 64px;
+    left: 0;
+    width: 100vw;
+    background: #1890ff;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 16px 0;
+    z-index: 1000;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+  }
+  .header-menu.open {
+    display: flex;
+  }
+  .hamburger-btn {
+    display: block;
+  }
+  .header-logo {
+    margin-right: 0;
+  }
+  
+  .logout-btn-css {
+    display: none;
+ }
+}

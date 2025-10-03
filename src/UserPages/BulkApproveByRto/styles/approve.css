@@ -1,0 +1,29 @@
+
+body{
+    background-color: rgb(245, 253, 255);
+}
+
+.H2-heading-btm-1{
+    padding: 1.5rem 1rem 0 0;
+    margin-left: 0;
+    margin-bottom: 2rem;
+}
+
+.H2-heading-tp-1{
+    padding: 1.5rem 1rem 0 0;
+    margin-left: 0;
+    margin-top: 2rem;
+}
+
+.abr-blu-titl{
+    color: #0086e8 !important; 
+    font-weight: 600 !important;
+}
+
+.abr-srch-btn{
+    padding: 0.5rem 2rem 0.5rem 2rem;
+}
+
+.str-srhc-btn{
+    margin: 3rem 0 1rem 0 ;
+}

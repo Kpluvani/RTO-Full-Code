@@ -1,0 +1,10 @@
+.rto-title {
+    color: var(--primary-color);
+    font-weight: 600;
+}
+
+.add-rto {
+    display: flex;
+    justify-content: end;
+    margin-bottom: 15px;
+}

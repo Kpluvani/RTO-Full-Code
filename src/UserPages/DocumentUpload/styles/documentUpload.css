@@ -1,0 +1,37 @@
+.savebuttons{
+  display: flex;
+  margin: 10px 0;
+}
+
+.document-verity{
+  margin: 1rem;
+}
+
+.part-one{
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  align-items: start;
+  gap: 1rem;
+  width: 40%;
+}
+
+.part-two{
+  width:80%
+}
+
+.part-two-top{
+  display: flex;
+  flex-direction: column;
+}
+
+.main{
+  display: flex;
+}
+
+.arrow{
+  display: flex;
+  justify-content: end;
+  width: 100%;
+  align-items: center;
+}

@@ -1,0 +1,41 @@
+.owner-details .partial-sve-btn {
+    margin: 2rem;
+}
+
+.owner-details .ant-card {
+    margin-bottom: 1rem;
+    border: 2px solid rgba(184, 183, 183, 0.386);
+}
+
+.owner-details .ant-form-item-margin-offset {
+    margin-bottom: 0 !important;
+    padding-bottom: 0.5rem !important;
+}
+
+.owner-details .ant-card-body {
+    padding: 0 1rem!important;
+}
+
+.owner-details .ant-card-head {
+    border-bottom: none !important;
+}
+
+.owner-details .ant-card-head-title {
+    color: var(--primary-color);
+    font-size: 1.2rem;
+}
+
+.owner-details .ant-card-head {
+    padding:0 1rem !important;
+    height: 3rem;
+}
+
+@media (max-width: 575px) {
+    .owner-details .ant-row {
+        row-gap: 0 !important;
+        margin-bottom: 0 !important;
+    }
+    .owner-details .ant-form-item {
+        margin-bottom: 0.5rem !important;
+    }
+}

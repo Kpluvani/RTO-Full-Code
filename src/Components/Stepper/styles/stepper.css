@@ -1,0 +1,63 @@
+.stepper {
+    margin: 40px 0 16px 0;
+    border-radius: 8px;
+}
+
+.stepper-wrapper {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+.progress-line {
+    position: absolute;
+    top: 1.5rem;
+    left: 60px;
+    right: 60px;
+    height: 2px;
+    background-color: #CED4DA;
+    z-index: 1;
+}
+
+.progress-line .line {
+    height: 100%;
+    background-color: #1890ff;
+    transition: width 0.3s ease-in-out;
+}
+
+.progress-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 2;
+    width: 60px;
+    margin: 0 5px;
+    background-color: #f0f2f5;
+}
+
+.progress-icon {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 8px;
+}
+.progress-icon div {
+    font-size: 13px;
+}
+
+.progress-label {
+    margin-top: 0;
+    font-size: 0.9rem;
+    color: #6C757D;
+    text-align: center;
+    font-weight: 500;
+    display: block;
+    max-width: 80;
+    word-wrap: break-word;
+    line-height: 18px;
+}

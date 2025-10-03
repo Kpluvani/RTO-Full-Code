@@ -1,0 +1,83 @@
+.top-tabs {
+  align-items: center;
+    margin-bottom: 20px;
+}
+
+.top-tabs .ant-tabs-tab-active {
+  background: #1890ff !important;
+  border-color: #1890ff !important;
+  color: white !important;
+}
+
+.top-tabs > .ant-tabs-card > .ant-tabs-nav .ant-tabs-tab-active .ant-tabs-tab-btn {
+  color: white !important;
+}
+
+.top-tabs > .ant-tabs-nav {
+    border-radius: 6px !important;
+    border: 1px solid #ffffff !important;
+    padding: 11px 0px 0px 11px !important;
+    background: white !important;
+}
+
+.data-entry .ant-badge {
+  color: inherit !important;
+}
+
+.ant-tabs .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+  color: white !important;
+}
+.ant-input-outlined:hover {
+  /* border-color: #1890ff !important;
+  background-color: #C6FFC6 !important; */
+}
+.ant-input:focus,
+.ant-input-focused {
+  background-color: #C6FFC6 !important; /* light green background */
+  border-color: #01060b !important;     /* optional border color */
+  box-shadow: none !important;          /* remove default blue shadow if you want */
+}
+
+/* ✅ Select field hover & focus */
+.ant-select-outlined:not(.ant-select-disabled):hover .ant-select-selector {
+  /* border-color: #1890ff !important;
+  background-color: #C6FFC6 !important; */
+}
+
+.ant-select-outlined .ant-select-selector:focus,
+.ant-select-outlined .ant-select-selector-focused {
+  border-color: #01060b !important;
+  background-color: #C6FFC6 !important;
+  box-shadow: none !important;
+}
+
+.ant-select-item-option:focus {
+  background-color: #C6FFC6 !important;
+  outline: none !important;
+}
+
+/* ✅ Select hover (already working) */
+.ant-select-outlined:not(.ant-select-disabled):hover .ant-select-selector {
+  /* border-color: #1890ff !important;
+  background-color: #C6FFC6 !important; */
+}
+
+/* ✅ Select focus via Tab key */
+.ant-select-focused .ant-select-selector {
+  border-color: #01060b !important;
+  background-color: #C6FFC6 !important;
+  box-shadow: none !important;
+}
+
+
+/* ✅ DatePicker hover & focus */
+.ant-picker-outlined:not(.ant-picker-disabled):hover {
+  /* border-color: #1890ff !important;
+  background-color: #C6FFC6 !important; */
+}
+
+.ant-picker-outlined.ant-picker-focused {
+  border-color: #01060b !important;
+  background-color: #C6FFC6 !important;
+  box-shadow: none !important;
+}

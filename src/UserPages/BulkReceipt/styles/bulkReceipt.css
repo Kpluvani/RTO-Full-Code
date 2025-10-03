@@ -1,0 +1,23 @@
+.bulk-receipt .blank-row .ant-table-cell {
+  height: 42px; /* adjust to match normal row height */
+}
+
+.bulk-receipt {
+    min-height: 100vh;
+    background: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+.bulk-receipt .title {
+    text-align: start;
+    color: var(--primary-color);
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+.bulk-receipt .button {
+    padding: 1rem 1.1rem;
+}
+.bulk-receipt .btn-wrapper {
+    margin-top: 2rem;
+}

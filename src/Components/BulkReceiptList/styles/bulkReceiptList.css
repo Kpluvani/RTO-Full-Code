@@ -1,0 +1,39 @@
+.bulk-receipt-list .title {
+    text-align: start;
+    color: var(--primary-color);
+    margin-top: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.bulk-receipt-list .sr-no-cell {
+    padding: 5px 6px;
+}
+.bulk-receipt-list .ant-table-container table>thead>tr:first-child >*:first-child {
+    border-left: 0;
+}
+.bulk-receipt-list .ant-table-container table>tfoot>tr:last-child >td {
+    border-bottom: 0 !important;
+}
+.bulk-receipt-list .ant-table-wrapper .ant-table.ant-table-bordered >.ant-table-container >.ant-table-content >table >thead>tr>th {
+    border-top: 0px;
+}
+.bulk-receipt-list .ant-table-container table>tbody>tr >*:last-child {
+    border-inline-end: 0px !important;
+}
+.bulk-receipt-list .ant-table-wrapper .ant-table-tbody >tr >td,
+.bulk-receipt-list .ant-table-wrapper .ant-table-summary >tr >td {
+    border-bottom: 1px solid #d5d5d5 !important;
+    border-inline-end: 1px solid #d5d5d5 !important;
+}
+.bulk-receipt-list .ant-table-wrapper .ant-table-summary,
+.bulk-receipt-list .ant-table-wrapper .ant-table-tbody>tr.ant-table-placeholder {
+    background: transparent !important;
+}
+.bulk-receipt-list table>tbody .ant-table-cell {
+    padding: 8px !important;
+}
+.bulk-receipt-list table>tfoot .ant-table-cell {
+    padding: 10px !important;
+    font-weight: 500;
+}

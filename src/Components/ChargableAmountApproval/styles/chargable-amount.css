@@ -1,0 +1,111 @@
+.chargable-amount-approval .sr-no-cell {
+    padding: 5px 6px;
+}
+.chargable-amount-approval .ant-table-container table>thead>tr:first-child >*:first-child {
+    border-start-start-radius: 0px !important;
+    border-left: 0;
+}
+.chargable-amount-approval .ant-table-container table>thead>tr:first-child >*:last-child {
+    border-start-end-radius: 0px !important;
+}
+.chargable-amount-approval .ant-table-container table>tbody>tr >*:last-child {
+    border-inline-end: 0px !important;
+}
+.chargable-amount-approval .ant-table-wrapper .ant-table.ant-table-bordered >.ant-table-container >.ant-table-content >table >thead>tr>th {
+    border-top: 0px;
+}
+.chargable-amount-approval .ant-table-wrapper .ant-table-tbody >tr >td {
+    border-bottom: 1px solid #d5d5d5 !important;
+    border-inline-end: 1px solid #d5d5d5 !important;
+}
+.chargable-amount-approval .ant-table-container table>tbody>tr:last-child >td {
+    border-bottom: 0 !important;
+}
+
+.chargable-amount-approval .ant-card {
+    margin-bottom: 1rem;
+}
+
+.chargable-amount-approval .ant-form-item-margin-offset {
+    margin-bottom: 0 !important;
+    padding-bottom: 0.5rem !important;
+}
+
+.chargable-amount-approval .ant-card-body {
+    padding: 0px 15px 15px 15px !important;
+}
+
+.chargable-amount-approval .ant-card-head {
+    border-bottom: none !important;
+}
+
+.chargable-amount-approval .ant-card-head-title {
+    color: var(--primary-color);
+    font-size: 1.2rem;
+}
+
+.chargable-amount-approval .ant-card-head {
+    padding: 0 1rem !important;
+}
+
+.chargable-amount-approval .amount-tbl .ant-table-tbody .ant-table-cell {
+    padding: 5px !important;
+}
+.chargable-amount-approval .footer-wrapper {
+    width: 100%;
+    display: flex;
+}
+.chargable-amount-approval .footer-label {
+    margin-left: 15px;
+    width: 76%;
+    text-align: end;
+    font-size: 1rem;
+    font-weight: 600;
+}
+.chargable-amount-approval .footer-value {
+    margin-left: 10px;
+    text-align: start;
+    font-size: 1rem;
+    font-weight: 600;
+}
+.chargable-amount-approval .ant-table-footer {
+    border: 1px solid #9DCBED !important;
+    border-top: 0px !important;
+    padding: 8px !important;
+}
+.chargable-amount-approval .ant-table-container {
+    border-radius: 0 !important;
+}
+.chargable-amount-approval .detail-card {
+    border: 1px solid #98cbeb;
+    border-radius: 8px 8px 0 0;
+    border-bottom: 0px;
+    padding: 20px 10px;
+    background: #e9f6fe;
+}
+.chargable-amount-approval .detail-label {
+    margin-left: 12%;
+}
+.chargable-amount-approval .detail-value {
+    font-weight: 500;
+}
+.chargable-amount-approval .ant-table-container {
+    border-radius: 0 0 8px 8px !important;
+}
+.chargable-amount-approval .ant-table-wrapper .ant-table-tbody >*:nth-last-child(2) >td {
+    border-bottom: 1px solid #9DCBED !important;
+}
+.chargable-amount-approval .ant-table-wrapper .ant-table-tbody >*:nth-last-child(1) >td {
+    background-color: #f7f7f7 !important;
+}
+.chargable-amount-approval .ant-table-wrapper .ant-table-tbody >*:nth-last-child(1) >td:first-child {
+    border-bottom-left-radius: 8px !important;
+}
+.chargable-amount-approval .ant-table-wrapper .ant-table-tbody >*:nth-last-child(1) >td:last-child {
+    border-bottom-right-radius: 8px !important;
+}
+.chargable-amount-approval .total-row {
+    font-weight: 500;
+    font-size: 15px;
+    padding: 1px 5px
+}

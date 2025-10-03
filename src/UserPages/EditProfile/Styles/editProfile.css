@@ -1,0 +1,35 @@
+.edit-profile-card {
+  width: 100%;
+}
+
+.edit-profile-title{
+    color: #1890ff !important;
+    font-weight: 600 !important;
+    padding-bottom: 1rem;
+}
+
+.edit-profile-main-div {
+  display: flex;
+  width: 100%;
+  gap: 40px;
+  justify-content: center;
+}
+
+.edit-profile-div {
+  width: 70%;
+}
+
+.edit-profile-btn-row {
+  margin-top: 1rem;
+  justify-content: center;
+}
+
+.edit-profile-btn {
+  margin-left: 8px;
+}
+
+.edit-profile-image-div {
+  display: flex;
+  justify-content: center;
+  width: 30%;
+}

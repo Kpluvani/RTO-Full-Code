@@ -1,0 +1,145 @@
+
+
+.user-title {
+    color: var(--primary-color);
+    font-weight: 600;
+}
+
+.user-sub-title {
+    color: var(--primary-color);
+    font-weight: 600;
+    margin-bottom: 20px
+}
+
+.user-rg-btn {
+    align-content: flex-start;
+    margin-left: auto;
+    margin-right: 0;
+}
+
+.user-grn-btn {
+    color: white;
+    background-color: rgb(54, 211, 156);
+}
+
+.user-grn-btn:hover{
+    color: white !important;
+    background-color: rgba(95, 217, 177, 0.926) !important;
+    border: white;
+}
+
+.user-grn-btn:active{
+    background-color: rgb(33, 186, 135) !important;
+    color: white !important;
+    border: none;
+}
+
+.main-content {
+    /* margin:0 2rem; */
+    margin: 0;
+    overflow-y: auto;
+    overflow-x: hidden;
+    height: 800px;
+}  
+
+.right-content{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.main-card1 {
+    width: 100%;
+    height: 100%;
+}
+
+.main-card2 {
+    width: 100%;
+    height: 100%;
+}
+
+.card1-body {
+    background-color: white;
+    border: 1px solid rgba(94, 94, 94, 0.283);
+    border-radius: 15px;
+    margin: 1rem 0;
+    padding: 1rem 1.3rem;
+}
+
+.card2-body{
+    background-color: white;
+    border: 1px solid rgba(94, 94, 94, 0.283);
+    border-radius: 15px;
+    margin: 1rem 0;
+    padding: 1rem 1.3rem;
+}
+
+
+.Adm-blu-table-div {
+    border-radius: 10px;
+    background-color: #fff;
+    margin-bottom: 1rem;
+}
+
+.Adm-blu-table-title {
+    text-align: center;
+    font-weight: 600;
+    /* font-size: 1.1rem; */
+    padding: 1rem;
+    background-color: #c1e4fc67;
+    border: 1px solid #43b1ffbe;
+    border-radius: 10px 10px 0 0;
+}
+
+.Adm-blu-table-empty {
+    font-weight: 600;
+    /* font-size: 1.3rem; */
+    background: #fff;
+    display: block;
+    padding: 1rem 0;
+}
+
+.Adm-list-blu-btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 1rem 1rem 1rem;
+    gap: 1rem;
+}
+
+.Adm-list-blu-btn .ant-btn {
+    padding: 0.5rem 0.75rem;
+}
+
+.save-btn{
+    margin-bottom: 0;
+}
+
+@media (max-width: 810px){
+    .user-rg-btn .ant-flex {
+        gap: 0.75rem;
+    }
+}
+
+@media (max-width: 694px) {
+    .user-rg-btn .ant-flex {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+}
+
+@media (max-width: 510px) {
+    .save-btn{
+        display: flex;
+        flex-direction: column;
+        margin: 0 2rem;
+    }
+}
+
+@media (max-width: 380px) {
+    .user-rg-btn .ant-btn {
+        padding: 1rem !important;
+    }
+}

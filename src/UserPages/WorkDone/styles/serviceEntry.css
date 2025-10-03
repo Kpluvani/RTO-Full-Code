@@ -1,0 +1,21 @@
+.top-tabs{
+  align-items: center;
+    margin-bottom: 20px;
+}
+
+.top-tabs .ant-tabs-tab-active {
+  background: #1890ff !important;
+  border-color: #1890ff !important;
+  color: white !important;
+}
+
+.top-tabs > .ant-tabs-card > .ant-tabs-nav .ant-tabs-tab-active .ant-tabs-tab-btn {
+  color: white !important;
+}
+
+.top-tabs > .ant-tabs-nav{
+    border-radius: 6px !important;
+    border: 1px solid #ffffff !important;
+    padding: 11px 0px 0px 11px !important;
+    background: white !important;
+}

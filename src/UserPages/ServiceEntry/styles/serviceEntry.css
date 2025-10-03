@@ -1,0 +1,49 @@
+.service-entry .top-tabs{
+  align-items: center;
+    margin-bottom: 20px;
+}
+
+.service-entry .top-tabs .ant-tabs-tab-active {
+  background: #1890ff !important;
+  border-color: #1890ff !important;
+  color: white !important;
+}
+
+.service-entry .top-tabs > .ant-tabs-card > .ant-tabs-nav .ant-tabs-tab-active .ant-tabs-tab-btn {
+  color: white !important;
+}
+
+.service-entry .top-tabs > .ant-tabs-nav {
+    border-radius: 6px !important;
+    border: 1px solid #ffffff !important;
+    padding: 11px 0px 0px 11px !important;
+    background: white !important;
+}
+
+.service-entry .ant-card {
+    margin-bottom: 1rem;
+    border: 2px solid rgba(184, 183, 183, 0.386);
+}
+
+.service-entry .ant-form-item-margin-offset {
+    margin-bottom: 0 !important;
+    padding-bottom: 0.5rem !important;
+}
+
+.service-entry .ant-card-body {
+    padding: 0 1rem!important;
+}
+
+.service-entry .ant-card-head {
+    border-bottom: none !important;
+}
+
+.service-entry .ant-card-head-title {
+    color: var(--primary-color);
+    font-size: 1.2rem;
+}
+
+.service-entry .ant-card-head {
+    padding:0 1rem !important;
+    height: 3rem;
+}

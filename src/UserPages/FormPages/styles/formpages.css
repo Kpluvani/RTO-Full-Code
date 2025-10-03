@@ -1,0 +1,13 @@
+.main Button{
+    margin-left: 1rem;
+}
+
+.main .ant-table-cell{
+    padding: 0.7% !important;
+}
+
+.application{
+    font-size: large;
+    font-weight: 600;
+    color: #0cd824;    
+}

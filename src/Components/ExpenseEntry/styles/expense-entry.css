@@ -1,0 +1,67 @@
+.expense-entry .sr-no-cell {
+    padding: 5px 6px;
+}
+.expense-entry .ant-table-container table>thead>tr:first-child >*:first-child {
+    border-left: 0;
+}
+.expense-entry .ant-table-container table>tbody>tr:last-child >td {
+    border-bottom: 0 !important;
+}
+.expense-entry .ant-table-wrapper .ant-table.ant-table-bordered >.ant-table-container >.ant-table-content >table >thead>tr>th {
+    border-top: 0px;
+}
+.expense-entry .ant-table-container table>tbody>tr >*:last-child {
+    border-inline-end: 0px !important;
+}
+.expense-entry .ant-table-wrapper .ant-table-tbody >tr >td {
+    border-bottom: 1px solid #d5d5d5 !important;
+    border-inline-end: 1px solid #d5d5d5 !important;
+}
+.expense-entry .ant-table-wrapper .ant-table-tbody >*:nth-last-child(2) >td {
+    border-bottom: 1px solid #9DCBED !important;
+}
+.expense-entry .ant-table-wrapper .ant-table-tbody >*:nth-last-child(1) >td {
+    background-color: #f7f7f7 !important;
+}
+.expense-entry .ant-table-wrapper .ant-table-tbody >*:nth-last-child(1) >td:first-child {
+    border-bottom-left-radius: 8px !important;
+}
+.expense-entry .ant-table-wrapper .ant-table-tbody >*:nth-last-child(1) >td:last-child {
+    border-bottom-right-radius: 8px !important;
+}
+.expense-entry .ant-card {
+    margin-bottom: 1rem;
+}
+
+.expense-entry .ant-form-item-margin-offset {
+    margin-bottom: 0 !important;
+    padding-bottom: 0.5rem !important;
+}
+
+.expense-entry .ant-card-body {
+    padding: 0px 15px 15px 15px !important;
+}
+
+.expense-entry .ant-card-head {
+    border-bottom: none !important;
+}
+
+.expense-entry .ant-card-head-title {
+    color: var(--primary-color);
+    font-size: 1.2rem;
+}
+
+.expense-entry .ant-card-head {
+    padding:0 1rem !important;
+    height: 3rem;
+}
+
+.expense-entry .expense-tbl .ant-table-tbody .ant-table-cell {
+    padding: 5px !important;
+}
+
+.expense-entry .total-row {
+    font-weight: 500;
+    font-size: 15px;
+    padding: 1px 5px
+}

@@ -1,0 +1,87 @@
+:root {
+  --table-scroll-height: calc(100vh - 406px);
+}
+
+/* @media (max-height: 600px) {
+  :root {
+    --table-scroll-height: calc(100vh - 406px);
+  }
+} */
+
+.mb-0 {
+    margin-bottom: 0 !important;
+}
+.mb-16 {
+    margin-bottom: 16px !important;
+}
+.mt-30 {
+    margin-top: 30px !important;
+}
+.mt-15 {
+  margin-top: 15px;
+}
+.bottom-0 {
+  margin-bottom: 0;
+}
+.primary-color {
+  color: var(--primary-color) !important;
+}
+.w-full {
+  width: 100%;
+}
+
+/* antd custom style */
+.ant-dropdown-menu {
+    border-radius: 3px !important;
+}
+.ant-table-body {
+  overflow: auto !important;
+}
+/* customize table design */
+.ant-layout .ant-layout-content {
+  padding: 24px !important;
+  height: calc(100vh - 64px);
+  overflow: auto;
+}
+.ant-modal .ant-modal-header {
+  margin-bottom: 15px !important;
+}
+.ant-table-wrapper .ant-table.ant-table-bordered >.ant-table-container {
+  border: 1px solid #9DCBED !important;
+  border-radius: 8px;
+}
+.ant-table-wrapper .ant-table.ant-table-bordered >.ant-table-container >.ant-table-header >table >thead>tr>th {
+  padding: 12px 8px;
+  border-bottom: 1px solid #9DCBED !important;
+  border-right: 1px solid #9DCBED !important;
+}
+.ant-table-wrapper .ant-table.ant-table-bordered >.ant-table-container >.ant-table-header .ant-table-cell {
+  background: #EAF4FC;
+}
+.ant-table-wrapper .ant-table.ant-table-bordered >.ant-table-container >.ant-table-body >table >tbody >tr >td {
+  padding: 2px 8px;
+  border-top: 1px solid #B9B9B9 !important;
+  border-right: 1px solid #B9B9B9 !important;
+}
+.ant-table-wrapper .ant-table-tbody>tr.ant-table-placeholder .ant-table-expanded-row-fixed {
+  width: 100% !important;
+}
+.ant-form-item-label {
+  font-weight: 500;
+}
+.ant-table-thead > tr > th {
+  background-color: #eaf6ff !important;
+  font-weight: 500;
+  border-bottom: 1px solid #93cbe9 !important;
+}
+
+.custom-row td {
+  padding: 8px 12px !important;
+}
+
+.custom-row td, th {
+    border: 1px solid #9dcbed;
+}
+.ant-table-wrapper {
+    border: 0px solid #98cbeb !important;
+}

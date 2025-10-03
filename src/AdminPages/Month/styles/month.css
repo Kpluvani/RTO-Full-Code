@@ -1,0 +1,10 @@
+.month-title {
+    color: var(--primary-color);
+    font-weight: 600;
+}
+
+.add-month {
+    display: flex;
+    justify-content: end;
+    margin-bottom: 15px;
+}

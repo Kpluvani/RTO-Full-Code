@@ -1,0 +1,54 @@
+.feedback-entry .ant-card {
+    margin-bottom: 1rem;
+    border: 2px solid rgba(184, 183, 183, 0.386);
+}
+
+.feedback-entry .ant-form-item-margin-offset {
+    margin-bottom: 0 !important;
+    padding-bottom: 0.5rem !important;
+}
+
+.feedback-entry .ant-card-body {
+    padding: 0 40px !important;
+}
+
+.feedback-entry .ant-card-head {
+    border-bottom: none !important;
+}
+
+.feedback-entry .ant-card-head-title {
+    color: var(--primary-color);
+    font-size: 1.2rem;
+}
+
+.feedback-entry .ant-card-head {
+    padding:0 1rem !important;
+    height: 3rem;
+}
+
+.feedback-entry .rate {
+    width: 100%;
+    display: flex;
+    align-items: start;
+}
+
+.feedback-entry .question {
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+
+.feedback-entry .question-wrapper {
+    margin-bottom: 12px;
+}
+
+.feedback-entry .remark {
+    margin-top: 15px;
+}
+
+.feedback-entry .address-wrapper {
+    margin-bottom: 6px;
+}
+.feedback-entry .adr-label {
+    font-weight: 500;
+    margin-left: 15px;
+}

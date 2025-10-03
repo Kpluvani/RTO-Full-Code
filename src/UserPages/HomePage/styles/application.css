@@ -1,0 +1,31 @@
+/* AntD table header customization */
+.application-list .ant-table-thead > tr > th {
+  background-color: #eaf6ff !important;
+  font-weight: 500;
+}
+
+/* .application-list .custom-row td {
+  padding: 8px 12px !important;
+} */
+
+.application-list .custom-row td, th {
+    border: 1px solid #9dcbed;
+}
+.application-list .ant-table-wrapper {
+    border: 0px solid #9dcbed !important;
+}
+.application-list .searchColumn {
+    width: 73%;
+    height: 30px;
+}
+
+.application-list .ant-table-thead > tr > th {
+  border-bottom: 1px solid #d9d9d9 !important;
+}
+.application-list .ant-table-tbody .ant-table-cell {
+  padding: 0 !important;
+}
+.application-list .ant-table-cell >* {
+    padding: 13px 12px;
+    margin: -5px 0px;
+}
